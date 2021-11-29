@@ -1,0 +1,28 @@
+.nav__list {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 70px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  list-style-type: none;
+}
+.nav__list .nav__btn:first-child{
+  margin-top: 50px;
+}
+.nav__list .nav__btn a {
+  display: block;
+  padding: 16px 0;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+}
+.nav__list .nav__btn a:not(.active){
+  color: #aeaeae;
+}
+.nav__list .nav__btn a:not(.active):hover{
+  color: #555555;
+}
